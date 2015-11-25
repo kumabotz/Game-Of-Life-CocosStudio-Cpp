@@ -1,0 +1,33 @@
+<Solution>
+  <PropertyGroup Name="GameOfLife" Version="2.3.3.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Folder Name="Assets">
+          <Folder Name="BackgroundImage">
+            <Image Name="background.png" />
+          </Folder>
+          <Folder Name="Buttons">
+            <Image Name="button-pressed.png" />
+            <Image Name="button.png" />
+            <Image Name="pause-pressed.png" />
+            <Image Name="pause.png" />
+            <Image Name="play-pressed.png" />
+            <Image Name="play.png" />
+          </Folder>
+          <Folder Name="Fonts">
+            <TTF Name="Courier New Bold.ttf" />
+          </Folder>
+          <Folder Name="SpriteImages">
+            <Image Name="balloon.png" />
+            <Image Name="bubble.png" />
+            <Image Name="grid.png" />
+            <Image Name="microscope.png" />
+          </Folder>
+        </Folder>
+        <Project Name="Grid.csd" Type="Node" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
